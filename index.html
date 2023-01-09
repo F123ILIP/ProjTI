@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <script src="skrypt.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +9,13 @@
     <title>Projekt</title>
 	
 </head>
-<body>
-
+<body onload="zegar()">
+    
+<div id="menu">
     <ol>
       <li><a href="#"> Atlas ćwiczeń </a>
         <ul>
-          <li><a href="#"> Ćwiczenia w domu </a></li>
+          <li><a href="index_atlas_dom.html"> Ćwiczenia w domu </a></li>
           <li><a href="#"> Ćwiczenia na siłowni </a></li>
           <li><a href="#"> Ćwiczenia w parku </a></li>
         </ul>
@@ -55,6 +56,7 @@
       <span class="slider round"></span>
       </label>
     </ol>
-
+</div>
+<div id="zegar"></div>
   </body>
 </html>

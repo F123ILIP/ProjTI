@@ -1,19 +1,45 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+#zegar{
+    margin-left: 1450px;
+     color:#000;
+     
+ }
+#menu{
+
+    margin-top: -10px;
+    margin-left: -10px;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    
+}
+
 /*=================================*/ /*MENU*/ /*=================================*/
 ol 
 {
 	list-style-type:none;
-    background-color:#FFF;
     font-size:16px;
     height:2em;
     line-height:2em;
 	text-align:center;
+    margin-top: 20px;
+    margin-left: 60px;
 }
 
 #dm
 {
 	background-color: #EBEBEB;
 	width: 100px;
-	margin-left: 50px;
+    position: relative;
+    margin-left:40px ;
+    margin-right: 0px;
+    
 }
 
 ol a 
@@ -29,7 +55,6 @@ ol > li
     float:left;
     width:180px;
     margin-left:1px;
-    background-color:#1E9BAA;
     height:2em;
 }
 
@@ -70,6 +95,10 @@ ol > li > ul > li:hover > a
   display: inline-block;
   width: 40px;
   height: 24px;
+  margin-top: 4px;
+  margin-left: -120px;
+
+  
 }
 
 .slider 
