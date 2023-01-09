@@ -1,1 +1,1 @@
-# ProjTI
+# Projekt TI
