@@ -1,4 +1,5 @@
-function zegar(){
+function zegar()
+{
 
 var dzisiaj = new Date();
 
@@ -18,3 +19,12 @@ var godzina = dzisiaj.getHours();
     setTimeout("zegar()",1000);
 
 }
+
+/*=================================*/ /*BMI*/ /*=================================*/
+
+function calcBMI() 
+{
+  var waga = document.bmiform.kg.value;
+  var wzrost = document.bmiform.cm.value;
+  document.bmiform.bmi.value = parseInt((waga * 10000) / (wzrost * wzrost));
+} 

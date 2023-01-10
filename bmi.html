@@ -30,7 +30,7 @@
 
       <li><a href="#"> Sprawdź się </a>
         <ul>
-          <li><a href="bmi.html"> Kalkulator BMI </a></li>
+          <li><a href="#"> Kalkulator BMI </a></li>
           <li><a href="#"> Porównaj wyniki </a></li>
         </ul>
       </li>
@@ -52,11 +52,34 @@
 	  </li>
 	  
 	  <label class="switch">
-      <input type="checkbox">
+      <input type="checkbox" onclick="dm()">
       <span class="slider round"></span>
       </label>
     </ol>
 </div>
 <div id="zegar"></div>
+<div id="logowanie">Zaloguj</div>
+
+<div>
+		<p id="intro"> Oblicz BMI </p>
+		<form name="bmiform" id="form">
+			<fieldset>
+			<legend class="leg"> Wzrost i waga </legend>
+				<label class="bmi" for="kg"> Waga [kg] </label>
+				<input class ="in" type="text" name="kg" id="kg">
+				<br>
+				<label class="bmi" for="cm"> Wzrost [cm] </label>
+				<input class="in" type="text" name="cm" id="cm">
+				<br>
+				<button type="button" name="calculate" value="Calculate your BMI" onclick="calcBMI()"> Oblicz </button>
+			</fieldset>
+			
+			<fieldset>
+			<legend class="leg"> BMI </legend>
+				<label class="bmi" for="bmi" id="bmi_label"> Twoje BMI: </label>
+				<input class="in" type="text" name="bmi" id="bmi" readonly="readonly">
+			</fieldset>
+		</form>
+	</div>
   </body>
 </html>
