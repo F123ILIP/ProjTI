@@ -28,3 +28,10 @@ function calcBMI()
   var wzrost = document.bmiform.cm.value;
   document.bmiform.bmi.value = parseInt((waga * 10000) / (wzrost * wzrost));
 } 
+
+function login(){
+
+var panel = document.getElementById("#logowanie");
+panel = location.href = "login.html";
+
+}
