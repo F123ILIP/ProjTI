@@ -218,3 +218,63 @@ button {
     height: 200px;
     background-color: red;
 }
+
+/*=================================*/ /*SKLEP*/ /*=================================*/
+
+a.Zdjecie{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #333;
+	width: 250px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	z-index: 2;
+}
+
+a.Zdjecie:hover{
+	z-index: 100;
+	border-color: #6A6A6A;
+	transform: rotate(0deg);
+	opacity: 100%;
+	transform: scale(1.5);
+}
+
+.Zdjecie img{
+	width: 250px;
+	height: 250px;
+}
+	
+a img{
+	border: none;
+	display: block;
+}
+
+.album
+{
+	display: flex;
+	margin-left: 120px;
+}
+
+/*=================================*/ /*SEARCH*/ /*=================================*/
+
+#searchbar
+{
+	margin-top: 100px;
+	margin-bottom: 60px;
+    margin-left: 10%;
+    padding:15px;
+    border-radius: 10px;
+}
+ 
+input[type=text] 
+{
+    width: 30%;
+}
+
+#list
+{
+    margin-left: 90px;
+	list-style-type: none;
+}
+ 

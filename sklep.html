@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Projekt</title>
+	
+</head>
+<body onload="zegar()">
+    
+<div id="menu">
+    <ol>
+      <li><a href="#"> Atlas ćwiczeń </a>
+        <ul>
+          <li><a href="index_atlas_dom.html"> Ćwiczenia w domu </a></li>
+          <li><a href="index_atlas_silka.html"> Ćwiczenia na siłowni </a></li>
+          <li><a href="index_atlas_park.html"> Ćwiczenia w parku </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#"> Odżywianie </a>
+        <ul>
+          <li><a href="#"> Jak schudnąć </a></li>
+          <li><a href="#">Jak zrobić masę </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#"> Sprawdź się </a>
+        <ul>
+          <li><a href="bmi.html"> Kalkulator BMI </a></li>
+          <li><a href="#"> Porównaj wyniki </a></li>
+        </ul>
+      </li>
+	  
+	  <li><a href="#"> Artykuły </a>
+        <ul>
+          <li><a href="#"> Basic  </a></li>
+          <li><a href="#"> Premium </a></li>
+        </ul>
+      </li>
+	  
+	  <li><a href="#"> Kontakt </a>
+      </li>
+	  
+	  <li><a href="#"> Plany treningowe </a>
+      </li>
+	  
+	  <li id="dm"> Dark mode
+	  </li>
+	  
+	  <label class="switch">
+      <input type="checkbox" onclick="dm()">
+      <span class="slider round"></span>
+      </label>
+    </ol>
+</div>
+<div id="zegar"></div>
+<button id="logowanie" onclick="login()">Zaloguj</button>
+
+<input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search...">
+      
+
+<div class = "album">
+<div class="sklep">
+
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie1</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie2</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie3</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie4</a>
+
+</div>
+
+<div class="sklep">
+
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie1</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie2</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie3</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie4</a>
+
+</div>
+<div class="sklep">
+
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie1</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie2</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie3</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie4</a>
+
+</div>
+<div class="sklep">
+
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie1</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie2</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie3</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie4</a>
+
+</div>
+<div class="sklep">
+
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie1</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie2</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie3</a>
+<a class="Zdjecie"><img src="zdj.jpg">Zdjecie4</a>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
