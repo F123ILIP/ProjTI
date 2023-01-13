@@ -1,3 +1,21 @@
+#del
+{
+	margin-top: 200px;
+}
+
+.shop
+{
+	position: fixed;
+	left: 1380px;
+}
+
+.home
+{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
 body{
     height: 100%;
     width: 100%;
