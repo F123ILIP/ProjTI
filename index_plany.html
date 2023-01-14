@@ -43,10 +43,10 @@
         </ul>
       </li>
 	  
-	  <li><a href="#"> Kontakt </a>
+	  <li><a href="kontakt.html"> Kontakt </a>
       </li>
 	  
-	  <li><a href="#"> Plany treningowe </a>
+	  <li><a href="index_plany.html"> Plany treningowe </a>
       </li>
 	  
 	  <li id="dm"> Dark mode
@@ -61,20 +61,46 @@
     </ol>
 </div>
 <div id="zegar"></div>
-
 <button id="logowanie" onclick="login()">Zaloguj</button>
-<div id="log">
 
-  <h1 id="naglowek">Formularz logowania</h1>
-  <input type="text" id="name" placeholder="Nazwa użytkownika">
-  <br>
-  <input type="password" id="passwd" placeholder="Password">
-  <br>
-  <button id="przycisk_login">Zaloguj się</button>
-  <br>
-  <a href="index.html">Nie pamiętasz hasła?</a>
-  <p>Nie masz konta?        <a href="index.html">Załóż nowe</a></p>
+<div id="plany">
 
+    <h1 id="naglowek2">Wybierz jeden z naszych planów treingowych.</h1>
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Okres czasu</th>
+                <th>Bronze</th>
+                <th>Silver</th>
+                <th>Gold</th>
+                <th>Platinum</th>
+                
+                
+            </tr>
+<form>
+        </thead>
+        <tbdoy>
+            <tr>
+<th>1 miesiąc</th> <th><input type="radio" name="wybor"> 49,99 zł</th> <th><input type="radio" name="wybor">69,99 zł</th> <th><input type="radio" name="wybor">79,99 zł</th> <th><input type="radio" name="wybor">99,99 zł</th>
+            </tr>
+            <tr>
+                
+                <th>3 miesiące</th> <th><input type="radio"name="wybor">139,99 zł</th> <th><input type="radio"name="wybor">179,99 zł</th> <th><input type="radio"name="wybor">219,99 zł</th> <th><input type="radio"name="wybor">249,99 zł</th>
+            </tr>
+            <tr>
+                <th>6 miesięcy</th> <th><input type="radio" name="wybor">249,99 zł</th> <th><input type="radio" name="wybor" >299,99 zł</th> <th><input type="radio"name="wybor">369,99 zł</th> <th><input type="radio"name="wybor">399,99 zł</th>
+            </tr>
+            <tr>
+                <th>12 miesięcy</th> <th><input type="radio"name="wybor">399,99 zł</th> <th><input type="radio"name="wybor">499,99 zł</th> <th><input type="radio"name="wybor">599,99 zł</th> <th><input type="radio"name="wybor">699,99 zł</th>
+            </tr>
+        </tbdoy>
+    </form>
+    </table>
+<button id="wybor">Wybierz plan dla siebie i przejdź dalej</button>
 </div>
-  </body>
+
+
+</body>
 </html>

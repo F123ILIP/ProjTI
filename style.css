@@ -50,7 +50,6 @@ body{
 	position: relative;
 	width: 80px;
 	height: 20px;
-	background-color: #white;
 	text-align: center;
 	border: solid;
 }
@@ -304,7 +303,6 @@ input[type=text]
 	list-style-type: none;
     margin: auto;
 }
-<<<<<<< HEAD
  #log{
 
     width: 400px;
@@ -312,6 +310,12 @@ input[type=text]
     text-align: center;
     border:solid;
    
+
+ }
+ #log{
+
+    margin-top: 50px;
+    margin-left: 600px;
 
  }
 #name{
@@ -335,97 +339,38 @@ input[type=text]
     margin-bottom: 20px;
     margin-left: 0px;
 
-=======
- 
- /*=================================*/ /*KONTAKT*/ /*=================================*/
- 
-input[type=text], textarea 
-{
-  width: 100%; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
-  border-radius: 6px; 
-  box-sizing: border-box; 
-  margin-top: 8px; 
-  margin-bottom: 16px; 
-  resize: vertical;
 }
+#plany{
+    
+    margin-left: 300px;
+    margin-top: 70px;
 
-input[type=submit] 
-{
-  background-color: #1E338E;
-  color: white;
-  padding: 12px 20px;
-  cursor: pointer;
 }
+table{
 
-input[type=submit]:hover 
-{
-  background-color: #364FBF;
+    width: 800px;
+    height: 300px;
+
 }
-
-.kontakt 
-{
-  margin-top: 60px;
-  border-radius: 5px;
-  background-color: #E9EBF0;
-  padding: 10px 20px;
-  width: 80%;
-  margin-left: 120px;
+#naglowek2{
+    margin-left: 100px;
 }
+tr{
 
-#kont
-{
-	margin-top: 50px;
+    background-color: #3f97e3;
+
 }
+#wybor{
 
-#k
-{
-	margin-bottom: 40px;
+    width: 800px;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 40px;
+
 }
-
- /*=================================*/ /*SILOWNIA*/ /*=================================*/
-
-a.Zdjecie1
-{
-	display: flex;
-	flex-direction: column;
-	text-decoration: none;
-	color: #333;
-	width: 250px;
-	border: 3px solid #BFBFBF;
-	background-color: white;
-	z-index: 2;
-	list-style-type: none;
-	text-align: center;
-	font-style: italic;
-	font-weight: bold;
-}
-
-a.Zdjecie1:hover
-{
-	z-index: 100;
-	border-color: #6A6A6A;
-	transform: rotate(0deg);
-	opacity: 100%;
-}
-
-.Zdjecie1 img
-{
-	width: 250px;
-	height: 250px;
-}
-	
-a img
-{
-	border: none;
-	display: block;
-}
-
-.album1
-{
-	display: flex;
-	margin-left: 120px;
-	margin-top: 100px;
->>>>>>> c5568af1786c46f2a19010c9d26682257ecb362e
+input[type=radio] {
+    border: 0px;
+    width: 25px;
+    height: 20px;
+    margin-top: 2px;
 }
