@@ -293,7 +293,40 @@ input[type=text]
 
 #list
 {
+    margin-top: 100px;
+    position: relative;
     margin-left: 90px;
 	list-style-type: none;
+    margin: auto;
 }
- 
+ #log{
+
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border:solid;
+   
+
+ }
+#name{
+
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+
+}
+#passwd{
+
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+
+}
+#przycisk_login{
+
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+
+}

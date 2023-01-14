@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
     <script src="script.js"></script>
@@ -13,6 +13,7 @@
     
 <div id="menu">
     <ol>
+	<a href="index.html" class="home"><img src="./img/home.png" width="50px" class="home"></img></a>
       <li><a href="#"> Atlas ćwiczeń </a>
         <ul>
           <li><a href="index_atlas_dom.html"> Ćwiczenia w domu </a></li>
@@ -30,7 +31,7 @@
 
       <li><a href="#"> Sprawdź się </a>
         <ul>
-          <li><a href="#"> Kalkulator BMI </a></li>
+          <li><a href="bmi.html"> Kalkulator BMI </a></li>
           <li><a href="#"> Porównaj wyniki </a></li>
         </ul>
       </li>
@@ -51,6 +52,8 @@
 	  <li id="dm"> Dark mode
 	  </li>
 	  
+	  <a href="sklep.html" class="shop"><img src="./img/shop.png" width="50px" class="shop"></img></a>
+	  
 	  <label class="switch">
       <input type="checkbox" onclick="dm()">
       <span class="slider round"></span>
@@ -58,9 +61,19 @@
     </ol>
 </div>
 <div id="zegar"></div>
-<div id="logowanie">Zaloguj</div>
-<div id="formularz">
-   <div id="box"></div>
+<button id="logowanie" onclick="login()">Zaloguj</button>
+<div id="log">
+
+  <h1 id="naglowek">Formularz logowania</h1>
+  <input type="text" id="name" placeholder="Nazwa użytkownika">
+  <br>
+  <input type="password" id="passwd" placeholder="Password">
+  <br>
+  <button id="przycisk_login">Zaloguj się</button>
+  <br>
+  <a href="index.html">Nie pamiętasz hasła?</a>
+  <p>Nie masz konta?        <a href="index.html">Załóż nowe</a></p>
+
 </div>
-</body>
+  </body>
 </html>
