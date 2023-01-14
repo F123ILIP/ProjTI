@@ -55,12 +55,45 @@
 	  <a href="sklep.html" class="shop"><img src="./img/shop.png" width="50px" class="shop"></img></a>
 	  
 	  <label class="switch">
-      <input type="checkbox">
+      <input type="checkbox" onclick="dm()">
       <span class="slider round"></span>
       </label>
     </ol>
 </div>
 <div id="zegar"></div>
 <button id="logowanie" onclick="login()">Zaloguj</button>
-  </body>
+
+<div class="kontakt">
+  <form action="form.php">
+    <p id="k"> Wyślij nam wiadomość... </p>
+    <label for="Imie"> Imię </label>
+    <input type="text" id="imie" name="imie" placeholder="Imię...">
+
+    <label for="Nazwisko"> Nazwisko </label>
+    <input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko...">
+
+    <label for="temat"> Temat </label>
+    <textarea id="temat" name="temat" placeholder="O co chodzi?"></textarea>
+
+    <input type="submit" value="Wyślij">
+    
+	
+    <article id="kont">
+	<p>
+    <h2>
+      KONTAKT
+    </h2>
+	  Telefon: 123 456 789
+	</p>
+
+    <address>
+      Kuchary, ul. Smaczna 13
+    </address>
+
+    </article>
+
+  </form>
+</div>
+
+</body>
 </html>

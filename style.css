@@ -25,7 +25,7 @@ body{
 #zegar{
     margin-left: 1450px;
     color:#000;
-    position: relative;
+    position: fixed;
     top: 30px;
 	border: solid;
     width: 60px;
@@ -50,9 +50,8 @@ body{
 	position: relative;
 	width: 80px;
 	height: 20px;
-	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	background-color: #white;
 	text-align: center;
-	top: -20px;
 	border: solid;
 }
 
@@ -133,8 +132,6 @@ ol > li > ul > li:hover > a
   height: 24px;
   margin-top: 4px;
   margin-left: -215px;
-
-  
 }
 
 .slider 
@@ -188,7 +185,7 @@ input:checked + .slider:before
 /*=================================*/ /*BMI*/ /*=================================*/
 .in
 {
-	margin-top: 10px;
+	margin-top: 150px;
 	display: block;
 	text-align: right;
 	width: 128px;
@@ -209,10 +206,11 @@ fieldset {
 	width: 300px;
 	margin: 25px 0 0 50px;
 	border: 1px solid #999999;
+	background-color: #E9EBF0;
 }
 
 button {
-	margin-left: 150px;
+	margin-left: 120px;
 }
 
 #bmi_label {
@@ -229,12 +227,18 @@ button {
 	padding: 10px;
 	border: 1px solid #999999;
 	box-shadow: 1px 1px #cccccc;
+	background-color: #E9EBF0;
 }
 #box{
     
     width: 200px;
     height: 200px;
     background-color: red;
+}
+
+#b
+{
+	margin-top: 50px;
 }
 
 /*=================================*/ /*SKLEP*/ /*=================================*/
@@ -284,6 +288,7 @@ a img{
     margin-left: 10%;
     padding:15px;
     border-radius: 10px;
+	width: 500px;
 }
  
 input[type=text] 
@@ -297,3 +302,94 @@ input[type=text]
 	list-style-type: none;
 }
  
+ /*=================================*/ /*KONTAKT*/ /*=================================*/
+ 
+input[type=text], textarea 
+{
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 6px; 
+  box-sizing: border-box; 
+  margin-top: 8px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] 
+{
+  background-color: #1E338E;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #364FBF;
+}
+
+.kontakt 
+{
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #E9EBF0;
+  padding: 10px 20px;
+  width: 80%;
+  margin-left: 120px;
+}
+
+#kont
+{
+	margin-top: 50px;
+}
+
+#k
+{
+	margin-bottom: 40px;
+}
+
+ /*=================================*/ /*SILOWNIA*/ /*=================================*/
+
+a.Zdjecie1
+{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #333;
+	width: 250px;
+	border: 3px solid #BFBFBF;
+	background-color: white;
+	z-index: 2;
+	list-style-type: none;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+a.Zdjecie1:hover
+{
+	z-index: 100;
+	border-color: #6A6A6A;
+	transform: rotate(0deg);
+	opacity: 100%;
+}
+
+.Zdjecie1 img
+{
+	width: 250px;
+	height: 250px;
+}
+	
+a img
+{
+	border: none;
+	display: block;
+}
+
+.album1
+{
+	display: flex;
+	margin-left: 120px;
+	margin-top: 100px;
+}
