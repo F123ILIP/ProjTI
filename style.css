@@ -237,7 +237,7 @@ button {
 
 #b
 {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 /*=================================*/ /*SKLEP*/ /*=================================*/
@@ -303,6 +303,9 @@ input[type=text]
 	list-style-type: none;
     margin: auto;
 }
+
+/*=================================*/ /*LOG*/ /*=================================*/
+
  #log{
 
     width: 400px;
@@ -340,6 +343,9 @@ input[type=text]
     margin-left: 0px;
 
 }
+
+/*=================================*/ /*PLANY*/ /*=================================*/
+
 #plany{
     
     margin-left: 300px;
@@ -373,4 +379,80 @@ input[type=radio] {
     width: 25px;
     height: 20px;
     margin-top: 2px;
+}
+
+/*=================================*/ /*SILOWNIA*/ /*=================================*/
+
+a.Zdjecie1{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #333;
+	width: 250px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	z-index: 2;
+	list-style-type: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+a.Zdjecie1:hover{
+	z-index: 100;
+	border-color: #6A6A6A;
+	transform: rotate(0deg);
+	opacity: 100%;
+	transform: scale(1.5);
+}
+
+.Zdjecie1 img{
+	width: 250px;
+	height: 250px;
+}
+	
+a img{
+	border: none;
+	display: block;
+}
+
+.album1
+{
+	display: flex;
+	margin-left: 120px;
+	margin-top: 100px;
+}
+
+/*=================================*/ /*SILOWNIA*/ /*=================================*/
+
+input[type=text], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.kontakt {
+  border-radius: 5px;
+  background-color: #ccc;
+  padding: 20px;
+  width: 800px;
+  margin-left: 300px;
+  margin-top: 80px;
 }
