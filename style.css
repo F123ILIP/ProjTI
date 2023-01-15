@@ -422,7 +422,7 @@ a img{
 	margin-top: 100px;
 }
 
-/*=================================*/ /*SILOWNIA*/ /*=================================*/
+/*=================================*/ /*KONTAKT*/ /*=================================*/
 
 input[type=text], textarea {
   width: 100%; 
@@ -455,4 +455,58 @@ input[type=submit]:hover {
   width: 800px;
   margin-left: 300px;
   margin-top: 80px;
+}
+
+/*=================================*/ /*ALBUM*/ /*=================================*/
+
+.plecy
+{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.plecy1
+{
+	margin-right: 50px;
+	padding: 10px;
+}
+
+.zdjbody
+{
+	background-color: white;
+	background-image: none;
+}
+
+.ple
+{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+
+.plecy2
+{
+	margin-top: 50px;
+}
+
+/*=================================*/ /*DOM*/ /*=================================*/
+
+.dom
+{
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 80%;
+    background-color: white; 
+}
+
+.domintro
+{
+	text-align: center;
+}
+
+.wejscie
+{
+	padding: 10px;
 }

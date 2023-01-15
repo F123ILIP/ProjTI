@@ -52,3 +52,55 @@ function search()
           else x[i].style.display="list-item";                 
 		}
 }
+
+/*=================================*/ /*SILOWNIA*/ /*=================================*/
+
+function Okno1() 
+{ 
+ window.open('zdj1.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno2() 
+{ 
+ window.open('zdj2.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno3() 
+{ 
+ window.open('zdj3.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno4() 
+{ 
+ window.open('zdj4.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno5() 
+{ 
+ window.open('zdj5.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno6() 
+{ 
+ window.open('zdj6.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno7() 
+{ 
+ window.open('zdj7.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno8() 
+{ 
+ window.open('zdj8.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno9() 
+{ 
+ window.open('zdj9.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
+
+function Okno10() 
+{ 
+ window.open('zdj10.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
+} 
