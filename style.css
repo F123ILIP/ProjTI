@@ -510,3 +510,89 @@ input[type=submit]:hover {
 {
 	padding: 10px;
 }
+#jak_schudnac{
+
+    margin-top: 100px;
+    width: 800px;
+    margin-left: 550px;
+
+}
+#zdj_mo{
+
+    z-index: -1;
+position: absolute;
+width: 300px;
+margin-left: -500px;
+margin-top: 120px;
+
+}
+
+#zdj_ze{
+
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    margin-left: -500px;
+    margin-top: 150px;
+    
+}
+#zdj_ti{
+
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    margin-left: -500px;
+    margin-top: 100px;
+    
+}
+#zdj_pr{
+
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    margin-left: -500px;
+    margin-top: 230px;
+    
+}
+#zdj_oi{
+
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    margin-left: -500px;
+    margin-top: 200px;
+    
+}
+#zdj_ni{
+
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    margin-left: -500px;
+    margin-top: 140px;
+    
+}
+#img_th{
+
+height: 350px;
+position: absolute;
+z-index: -1;
+margin-left: 550px;
+margin-top: -30px;
+
+}
+p{
+
+margin-top: 50px;
+line-height: 40px;
+
+}
+h2{
+    margin-top: 90px;
+}
+#poczatek{
+
+    margin-left: -490px;
+    width: 750px;
+
+}
