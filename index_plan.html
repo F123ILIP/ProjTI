@@ -23,7 +23,7 @@
 
       <li><a href="#"> Odżywianie </a>
         <ul>
-          <li><a href="#"> Jak schudnąć </a></li>
+          <li><a href="index_jak_s.html"> Jak schudnąć </a></li>
           <li><a href="#">Jak zrobić masę </a></li>
         </ul>
       </li>
@@ -62,44 +62,30 @@
 <div id="zegar"></div>
 <button id="logowanie" onclick="login()">Zaloguj</button>
 
-<div id="plany">
+<div id="kontener_pl">
 
-    <h1 id="naglowek2">Wybierz jeden z naszych planów treingowych.</h1>
-    <table>
+    <form>
 
-        <thead>
+        <h1>Podaj pare informacji o sobie</h1>
+        <p>Podaj swoją płeć:</p>
+        <input type="radio" name="gender"value="ona">Kobieta
+        <input type="radio" name="gender" value="on">Mężczyzna
+        <p>Podaj swoją wagę:<input type="text"></p>
+        <p>Podaj swój wzrost: <input type="text"></p>
+        <p>Podaj pomiar w pasie<input type="text"></p>
+        <p>Podaj pomiar klakti <input type="text"></p>
+        <p>Podaj pomiar uda <input type="text"></p>
+        <p>Podaj pomiar ramienia <input type="text"></p>
+        <p>Podaj z jaką częstotliwością będziesz mógł uprawiać sport w przyszłości:</p>
+        <input type="radio" name="sport">1-2 raz dziennie
+        <input type="radio"name="sport">3-4 razy dziennie
+        <input type="radio"name="sport">5-6 razy dziennie
+        <input type="radio"name="sport">codziennie
+        <button onclick="send()" id="wyslij">POTWIERDŹ I PRZEJDŹ DO PŁATNOŚCI</button>
 
-            <tr>
-                <th>Okres czasu</th>
-                <th>Bronze</th>
-                <th>Silver</th>
-                <th>Gold</th>
-                <th>Platinum</th>
-                
-                
-            </tr>
-<form>
-        </thead>
-        <tbdoy>
-            <tr>
-<th>1 miesiąc</th> <th><input type="radio" name="wybor"> 49,99 zł</th> <th><input type="radio" name="wybor">69,99 zł</th> <th><input type="radio" name="wybor">79,99 zł</th> <th><input type="radio" name="wybor">99,99 zł</th>
-            </tr>
-            <tr>
-                
-                <th>3 miesiące</th> <th><input type="radio"name="wybor">139,99 zł</th> <th><input type="radio"name="wybor">179,99 zł</th> <th><input type="radio"name="wybor">219,99 zł</th> <th><input type="radio"name="wybor">249,99 zł</th>
-            </tr>
-            <tr>
-                <th>6 miesięcy</th> <th><input type="radio" name="wybor">249,99 zł</th> <th><input type="radio" name="wybor" >299,99 zł</th> <th><input type="radio"name="wybor">369,99 zł</th> <th><input type="radio"name="wybor">399,99 zł</th>
-            </tr>
-            <tr>
-                <th>12 miesięcy</th> <th><input type="radio"name="wybor">399,99 zł</th> <th><input type="radio"name="wybor">499,99 zł</th> <th><input type="radio"name="wybor">599,99 zł</th> <th><input type="radio"name="wybor">699,99 zł</th>
-            </tr>
-        </tbdoy>
+
     </form>
-    </table>
-<button onclick="website()" id="wybor">Wybierz plan dla siebie i przejdź dalej</button>
+
 </div>
-
-
 </body>
 </html>

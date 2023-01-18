@@ -104,3 +104,9 @@ function Okno10()
 { 
  window.open('zdj10.html','_blank', 'menubar=no', 'width=100%', 'resizable=no'); 
 } 
+
+function website(){
+
+  location.href="index_plan.html";
+
+}
