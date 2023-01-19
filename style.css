@@ -612,3 +612,60 @@ margin-left: 100px;
     margin-top: 50px;
 
 }
+#article_masa{
+
+margin-left: 500px;
+width: 900px;
+
+}
+#gigachad{
+
+margin-left: 1100px;
+width: 300px;
+margin-top: 100px;
+
+}
+#poczatek_2{
+
+    margin-top: -350px;
+    margin-left: -400px;
+    width: 900px;
+
+}
+#apple{
+
+width: 200px;
+height: 250px;
+margin-left: -400px;
+position: absolute;
+margin-top: 120px;
+z-index: -1;
+
+}
+#work{
+
+    height: 220px;
+    margin-left: -400px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: -1;
+    
+}
+#rel{
+
+    height: 220px;
+    margin-left: -400px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: -1;
+
+}
+#progresja{
+
+    height: 180px;
+    margin-left: -400px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: -1;
+
+}

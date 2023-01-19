@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+	
+</head>
+<body onload="zegar()">
+    
+<div id="menu">
+    <ol>
+	<a href="index.html" class="home"><img src="./img/home.png" width="50px" class="home"></img></a>
+      <li><a href="#"> Atlas ćwiczeń </a>
+        <ul>
+          <li><a href="index_atlas_dom.html"> Ćwiczenia w domu </a></li>
+          <li><a href="index_atlas_silka.html"> Ćwiczenia na siłowni </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#"> Odżywianie </a>
+        <ul>
+          <li><a href="index_jak_s.html"> Jak schudnąć </a></li>
+          <li><a href="#">Jak zrobić masę </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#"> Sprawdź się </a>
+        <ul>
+          <li><a href="bmi.html"> Kalkulator BMI </a></li>
+          <li><a href="#"> Porównaj wyniki </a></li>
+        </ul>
+      </li>
+	  
+	  <li><a href="#"> Artykuły </a>
+        <ul>
+          <li><a href="#"> Basic  </a></li>
+          <li><a href="index_article_premium.html"> Premium </a></li>
+        </ul>
+      </li>
+	  
+	  <li><a href="kontakt.html"> Kontakt </a>
+      </li>
+	  
+	  <li><a href="index_plany.html"> Plany treningowe </a>
+      </li>
+	  
+	  <li id="dm"> Dark mode
+	  </li>
+	  
+	  <a href="sklep.html" class="shop"><img src="./img/shop.png" width="50px" class="shop"></img></a>
+	  
+	  <label class="switch">
+      <input type="checkbox" onclick="dm()">
+      <span class="slider round"></span>
+      </label>
+    </ol>
+</div>
+<div id="zegar"></div>
+<button id="logowanie" onclick="login()">Zaloguj</button>
+
+<div id="tekst_masa">
+    <img src="img/img4/gigachad.jpg" id="gigachad">
+    <article id="article_masa">
+        <div id="poczatek_2">
+        <h1>Jak zbudować masę mięśniową?</h1>
+    
+    <p>Chodzisz na siłownię od dłuższego czasu i nie widzisz efektów? Nabrałeś masy mięśniowej w minimalnym stopniu i na tym się skończyło? A może jesteś początkujący i szukasz porad jak skutecznie zbudować masę mięśniową? Ten tekst przedstawia 11 prostych porad, jakie powinieneś wykorzystać, aby dojść do upragnionego celu.
+    
+      Dajesz z siebie wszystko na siłowni, a mimo to stoisz w miejscu? Nie wiesz co robisz źle, mimo że starasz się trzymać dietę oraz regularnie ćwiczysz na siłowni? Poniżej przedstawiono wskazówki w jaki sposób dać impuls dla organizmu, aby zbudować masę mięśniową.</p>
+    </div>
+    <img src="img/img4/apple_meter.jpg" id="apple">
+      <h2>Zadbaj o ilość kalorii</h2>
+      <p>Nadwyżka kaloryczna jest podstawą przy budowaniu masy mięśniowej. Jeśli nie jesteś laikiem w ćwiczeniu na siłowni to wiesz, że jedząc poniżej dziennego zapotrzebowania kalorycznego nie będziesz w stanie niczego zbudować. W takich wypadkach warto pomyśleć o uzupełnieniu codziennej diety w specjalistyczne odżywki na masę (gainery). Pamiętaj, każdy organizm jest inny i każdy wymaga inną liczbę kalorii, aby skutecznie zbudować masę mięśniową. Przykładowo – przy wadze 80kg, jedna osoba wymaga 3000kcal, inna zaś 3500kcal, aby w takim samym tempie budować masę.</p>
+      <img src="img/img4/1.jpg" id="work">
+    <h2>Ćwicz</h2>
+    <p>Wielu z nas wie, że aktywny tryb życia jest ważny, jednak  świadomość ta nie zawsze wpływa na jego częstsze uprawianie. Brak czasu, nadmiar obowiązków, brak obeznania z tematem stanowią wierzchołek góry lodowej, która blokuje nam drogę do poprawienia zdrowia, samopoczucia i bardzo często również własnej atrakcyjności.
+      Z pośród niezliczonych metod treningowych i całego katalogu sportów warto skoncentrować się na klasycznym treningu siłowym. Może stanowić podstawę do której stopniowo możemy dodawać innego rodzaju aktywności.</p>
+      <img src="img/img4/relax.jpg" id="rel">
+      <h2>Zadbaj o odpoczynek</h2>
+      <p>Zasada jest bardzo prosta. Czym więcej kalorii spalisz w ciągu dnia, tym więcej będziesz musiał zjeść, aby zbudować masę mięśniową. Jeśli jesteś osobą, której trudno nabrać masę mięśniową, pamiętaj aby jeść dużo oraz starać się nie „biegać całymi dniami”. Odpoczywaj na tyle długo, na ile jesteś w stanie.</p>
+      <img src="img/img4/wykres.jpg" id="progresja">
+      <h2>Stosuj progresję siłową</h2>
+      <p>Z treningu na trening zwiększaj obciążenie jakim ćwiczysz. Co to oznacza? Przykładowo jeśli w pierwszym tygodniu zacząłeś ćwiczyć klatkę sztangą z obciążeniem 80kg, w przyszłym tygodniu zacznij to ćwiczenie od 82,5kg. W ten sposób wyślesz impuls do mięśni, że muszą rosnąć, aby podołać przy progresji siłowej. To ważny element w budowaniu masy mięśniowej.</p>
+    
+    </article>
+    
+    </div>
+    
+</body>
+</html>

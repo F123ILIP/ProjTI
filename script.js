@@ -110,3 +110,8 @@ function website(){
   location.href="index_plan.html";
 
 }
+function send_2(){
+
+  location.href="index.html";
+
+}
