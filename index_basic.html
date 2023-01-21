@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+	
+</head>
+<body onload="zegar()">
+    
+<div id="menu">
+    <ol>
+	<a href="index.html" class="home"><img src="./img/home.png" width="50px" class="home"></img></a>
+      <li><a href="#"> Atlas ćwiczeń </a>
+        <ul>
+          <li><a href="index_atlas_dom.html"> Ćwiczenia w domu </a></li>
+          <li><a href="index_atlas_silka.html"> Ćwiczenia na siłowni </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#"> Odżywianie </a>
+        <ul>
+          <li><a href="index_jak_s.html"> Jak schudnąć </a></li>
+          <li><a href="index_masa.html">Jak zrobić masę </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#"> Sprawdź się </a>
+        <ul>
+          <li><a href="bmi.html"> Kalkulator BMI </a></li>
+          <li><a href="#"> Porównaj wyniki </a></li>
+        </ul>
+      </li>
+	  
+	  <li><a href="#"> Artykuły </a>
+        <ul>
+          <li><a href="#"> Basic  </a></li>
+          <li><a href="index_article_premium.html"> Premium </a></li>
+        </ul>
+      </li>
+	  
+	  <li><a href="kontakt.html"> Kontakt </a>
+      </li>
+	  
+	  <li><a href="index_plany.html"> Plany treningowe </a>
+      </li>
+	  
+	  <li id="dm"> Dark mode
+	  </li>
+	  
+	  <a href="sklep.html" class="shop"><img src="./img/shop.png" width="50px" class="shop"></img></a>
+	  
+	  <label class="switch">
+      <input type="checkbox" onclick="dm()">
+      <span class="slider round"></span>
+      </label>
+    </ol>
+</div>
+<div id="zegar"></div>
+<button id="logowanie" onclick="login()">Zaloguj</button>
+
+
+
+</body>
+</html>
