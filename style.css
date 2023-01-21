@@ -28,12 +28,12 @@ body{
 }
 
 #zegar{
-    margin-left: 1450px;
+    margin-left: 1440px;
     color:#000;
     position: fixed;
     top: 30px;
 	border: solid;
-    width: 60px;
+    width: 75px;
 	text-align: center;
 	background-color: white;
  }
@@ -320,7 +320,7 @@ input[type=text]
    
 
  }
- #log{
+#log{
 
     margin-top: 50px;
     margin-left: 600px;
