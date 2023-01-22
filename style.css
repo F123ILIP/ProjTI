@@ -37,8 +37,27 @@ body{
 	text-align: center;
 	background-color: white;
  }
+ @keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }  
+  100%{
+
+    transform: translateY(0%);
+  }
+ }
+ @keyframes button-load {
+    0% {
+      transform: translateY(+800%);
+    }  
+    100%{
+  
+      transform: translateX(0%);
+    }
+   }
 #menu{
 
+    animation:nav-load 2000ms;
     margin-top: -10px;
     margin-left: -10px;
     position: fixed;
@@ -87,6 +106,7 @@ ol a
     text-decoration:none;
     color:#000;
     padding:0 5px;
+    
 }
 
 ol > li 
@@ -689,6 +709,7 @@ z-index: -1;
     width: 100%;
     z-index: -2;
     position: absolute;
+    animation:nav-load 2000ms;
     
     
 
@@ -696,6 +717,7 @@ z-index: -1;
 #header_main{
 
     font-size: 40px;
+    animation:nav-load 3000ms;
 
 }
 #zobacz{
@@ -704,6 +726,13 @@ width: 400px;
 height: 40px;
 margin-left: 0px;
 margin-top: 40px;
+animation:button-load 4000ms;
+position: absolute;
+
+}
+#zobacz:hover{
+
+   border:3px solid wheat;
 
 }
 #slider_main{
