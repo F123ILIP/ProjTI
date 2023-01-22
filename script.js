@@ -149,3 +149,43 @@ $("#kontener_2").fadeIn(500);
    timer1 = setTimeout("zmien()", 5000);
     timer2 = setTimeout("schowaj()", 4500);
 }
+function calcBMI() 
+{
+  var waga = document.bmiform.kg.value;
+  var wzrost = document.bmiform.cm.value;
+  document.bmiform.bmi.value = parseInt((waga * 10000) / (wzrost * wzrost));
+  var BMI = parseInt((waga*10000)/(wzrost*wzrost));
+  
+  if(BMI < 16)
+    {
+        document.getElementById("bmiwyn").innerText = "Wygłodzenie";    
+    }
+	else if((BMI >= 16) && (BMI <= 16.9))
+	{
+        document.getElementById("bmiwyn").innerText = "Wychudzenie";
+    }
+	else if((BMI >= 17) && (BMI <= 18.49 ))
+	{
+        document.getElementById("bmiwyn").innerText = "Niedowaga";
+    }
+	else if((BMI >= 18.5) && (BMI <= 24.9 ))
+	{
+        document.getElementById("bmiwyn").innerText = "Waga prawidłowa";
+    }
+	else if((BMI >= 25) && (BMI <= 29.9))
+	{
+        document.getElementById("bmiwyn").innerText = "Nadwaga";
+    }
+	else if((BMI >= 30) && (BMI <= 34.9))
+	{
+        document.getElementById("bmiwyn").innerText = "Otyłość I stopnia";
+    }
+	else if((BMI >= 35) && (BMI <= 39.9))
+	{
+        document.getElementById("bmiwyn").innerText = "Otyłość II stopnia";
+    }
+	else 
+	{
+        document.getElementById("bmiwyn").innerText = "Otyłość III stopnia";
+    }
+}
