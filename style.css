@@ -846,3 +846,92 @@ margin-top: -200px;
             margin-top: -175px;
             
             }
+#foot_button{
+
+    margin-top: -240px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    color: wheat;
+    background-color: white;
+
+}
+#foot_button:hover{
+
+    color: #000;
+    border: 2px solid wheat;
+
+}
+
+#pay{
+
+    width: 400px;
+    height: 550px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 550px;
+    border:2px solid wheat;
+    font-size: 14px;
+
+}
+#pay #pay-h1{
+
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+#pay img{
+
+    width: 70px;
+    position: absolute;
+
+}
+#pay #pay-v{
+
+
+    margin-top: -30px;
+    margin-left: -170px;
+
+}
+#pay #pay-m{
+
+
+    margin-top: -5px;
+    margin-left: -40px;
+
+}
+#pay #pay-g{
+
+
+    margin-top: 5px;
+    margin-left: 100px;
+
+}
+#pay #imie{
+
+   margin-bottom: -40px;
+
+}
+
+#pay #waz{
+
+    margin-left: -220px;
+    margin-top: -50px;
+
+}
+#pay #cv{
+
+    margin-top: -120px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+
+}
+#pay-b{
+
+    margin-left: 0px;
+    height: 77px;
+    width: 100%;
+
+}
