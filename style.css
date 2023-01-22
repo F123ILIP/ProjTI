@@ -722,3 +722,127 @@ margin-top: 40px;
     border: 2px solid rgb(49, 49, 53);
 
 }
+#kontener_2 img{
+
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 700px;
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 2%;
+    box-shadow: 1px 1px;
+    z-index: -1;
+
+
+}
+#kontener img{
+
+    position: absolute;
+    margin-top: 60px;
+    height: 350px;
+    width: 250px;
+    margin-left: 350px;
+    border-radius: 2%;
+    box-shadow: 1px 1px;
+    z-index: -1;
+
+
+
+}
+#main-text{
+
+color:black;
+position: absolute;
+margin-top: 750px;
+margin-left: 100px;
+
+}
+#main-h1{
+
+margin-left: 190px;
+font-size: 40px;
+z-index: -1;
+
+
+}
+#main-h2{
+
+    margin-left: 1000px;
+
+}
+#main-stopka{
+
+    margin-top: 1500px;
+    position: absolute;
+    height: 400px;
+    background-color: #000;
+    width: 100%;
+    color: wheat;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+
+}
+#main-stopka li a{
+    text-decoration: none;
+    margin-left: 1000px;
+    color: wheat;
+}
+#main-stopka ul li{
+
+text-decoration: none;
+
+
+
+
+}
+#main-foot{
+
+
+margin-left: 20px;
+margin-top: -150px;
+position: absolute;
+
+}
+#foot2 #foot-h2{
+
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -240px;
+
+}
+#foot2 img{
+
+width: 80px;
+
+}
+#foot2 #visa{
+
+position: absolute;
+margin-left: 500px;
+margin-top: -200px;
+
+}
+#foot2 #master{
+
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -80px;
+    
+    }
+    #foot2 #maestro{
+
+        position: absolute;
+        margin-left: 620px;
+        margin-top: -80px;
+        
+        }
+        #foot2 #gpay{
+
+            position: absolute;
+            margin-left: 620px;
+            margin-top: -175px;
+            
+            }

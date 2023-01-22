@@ -115,3 +115,37 @@ function send_2(){
   location.href="index.html";
 
 }
+var numer=Math.floor(Math.random()*5)+1; //definiujemy globalnie, a nie odświeża się co 5 sekund, bo moglibyśmy mieć ten sam slajd przełączony na ten sam
+
+var timer1=0;
+var timer2=0;
+
+function ustaw(nr){
+
+clearTimeout(timer1);
+clearTimeout(timer2);
+numer=nr-1;
+
+schowaj();
+setTimeout("zmien()",500);
+
+}
+
+function schowaj(){
+    $("#kontener").fadeOut(500);
+    $("#kontener_2").fadeOut(500);
+}
+function zmien(){
+
+numer++;
+if(numer>3) numer=1; //jeśli przejdzie przez 3 to od 1
+var plik="<img src=\"img/img6/before"+numer+".jpg\">";
+var plik_2="<img src=\"img/img6/after"+numer+".jpg\">";
+document.getElementById("kontener").innerHTML=plik;
+document.getElementById("kontener_2").innerHTML=plik_2;
+$("#kontener").fadeIn(500);
+$("#kontener_2").fadeIn(500);
+
+   timer1 = setTimeout("zmien()", 5000);
+    timer2 = setTimeout("schowaj()", 4500);
+}
