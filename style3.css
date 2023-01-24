@@ -1,3 +1,8 @@
+*{
+
+    font-family: 'Franklin Gothic';
+
+}
 #del
 {
 	margin-top: 200px;
@@ -17,23 +22,55 @@
 }
 
 body{
-    height: 100%;
-    width: 100%;
-   background-color: #000;
+
+   
+    background-color: white;
 }
 
 #zegar{
-    margin-left: 1450px;
+    margin-left: 1440px;
     color:#000;
     position: fixed;
     top: 30px;
 	border: solid;
-    width: 60px;
+    width: 75px;
 	text-align: center;
 	background-color: white;
  }
+ 
+ #logowanie
+{
+	margin-left: 1440px;
+    color:#000;
+	position: fixed;
+	top: 8px;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	border: solid;
+	z-index: 100;
+}
+ @keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }  
+  100%{
+
+    transform: translateY(0%);
+  }
+ }
+ @keyframes button-load {
+    0% {
+      transform: translateY(+800%);
+    }  
+    100%{
+  
+      transform: translateX(0%);
+    }
+   }
 #menu{
 
+    animation:nav-load 2000ms;
     margin-top: -10px;
     margin-left: -10px;
     position: fixed;
@@ -43,18 +80,7 @@ body{
     
 }
 
-#logowanie
-{
-	margin-left: 1440px;
-    color:#000;
-	position: sticky;
-	top: 8px;
-	width: 80px;
-	height: 20px;
-	text-align: center;
-	border: solid;
-	z-index: 100;
-}
+
 
 /*=================================*/ /*MENU*/ /*=================================*/
 ol 
@@ -84,6 +110,7 @@ ol a
     text-decoration:none;
     color:#000;
     padding:0 5px;
+    
 }
 
 ol > li 
@@ -317,7 +344,7 @@ input[type=text]
    
 
  }
- #log{
+#log{
 
     margin-top: 50px;
     margin-left: 600px;
@@ -521,7 +548,7 @@ input[type=submit]:hover {
 }
 #zdj_mo{
 
-    z-index: -1;
+z-index: -1;
 position: absolute;
 width: 300px;
 margin-left: -500px;
@@ -614,49 +641,456 @@ margin-left: 100px;
     margin-top: 50px;
 
 }
+#article_masa{
 
-#black{
-	position: relative;
-    margin-left: 600px;
-    margin-top: 100px;
+margin-left: 500px;
+width: 900px;
+
 }
+#gigachad{
 
-#zd2{
+margin-left: 1100px;
+width: 300px;
+margin-top: 100px;
 
-    width: 150px;
-    margin-left: 100px;
+}
+#poczatek_2{
+
+    margin-top: -350px;
+    margin-left: -400px;
+    width: 900px;
+
+}
+#apple{
+
+width: 200px;
+height: 250px;
+margin-left: -400px;
+position: absolute;
+margin-top: 120px;
+z-index: -1;
+
+}
+#work{
+
+    height: 220px;
+    margin-left: -400px;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 120px;
+    z-index: -1;
+    
+}
+#rel{
+
+    height: 220px;
+    margin-left: -400px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: -1;
 
 }
-#tekscior{
-	
-   width: 370px;
-   height: 370px;
-   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-   margin: auto;
-   margin-top: 100px;
-   border:2px solid red;
+#progresja{
+
+    height: 180px;
+    margin-left: -400px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: -1;
 
 }
-#tekscior p{
+#main_text{
 
+    position: absolute;
+    margin-top: 100px;
+    z-index: -1;
+    color: white;
+    margin-left: 100px;
+
+}
+
+#main_zdj{
+
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    animation:nav-load 2000ms;
+    
+    
+
+}
+#header_main{
+
+    font-size: 40px;
+    animation:nav-load 3000ms;
+
+}
+#zobacz{
+
+width: 400px;
+height: 40px;
+margin-left: 0px;
+margin-top: 40px;
+animation:button-load 4000ms;
+position: absolute;
+
+}
+#zobacz:hover{
+
+   border:3px solid wheat;
+
+}
+#slider_main{
+
+    width: 100%;
+    height: 200px;
+    margin-top: 870px;
+    position: absolute;
+    margin-left: 100px;
+
+}
+#slider_main img{
+
+    width: 170px;
+    height: 205px;
+    border: 2px solid rgb(49, 49, 53);
+
+}
+#kontener_2 img{
+
+    position: absolute;
+    margin-top: 1770px;
+    margin-left: 330px;
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 2%;
+    box-shadow: 1px 1px;
+    z-index: -1;
+
+
+}
+#kontener img{
+
+    position: absolute;
+    margin-top: 1770px;
+    height: 350px;
+    width: 250px;
+    margin-left: 50px;
+    border-radius: 2%;
+    box-shadow: 1px 1px;
+    z-index: -1;
+
+
+
+}
+#main-text{
+
+color:black;
+position: absolute;
+margin-top: 750px;
+margin-left: 100px;
+
+}
+#main-h1{
+
+margin-left: 190px;
+font-size: 40px;
+z-index: -1;
+
+
+}
+#main-h2{
+
+    margin-left: 1000px;
+
+}
+#main-stopka{
+
+    margin-top: 3500px;
+    position: absolute;
+    height: 400px;
+    background-color: #000;
+    width: 100%;
+    color: wheat;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+
+}
+#main-stopka li a{
+    text-decoration: none;
+    margin-left: 1000px;
+    color: wheat;
+}
+#main-stopka ul li{
+
+text-decoration: none;
+
+
+
+
+}
+#main-foot{
+
+
+margin-left: 40px;
+margin-top: -225px;
+position: absolute;
+
+}
+#foot2 #foot-h2{
+
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -240px;
+
+}
+#foot2 img{
+
+width: 80px;
+
+}
+#foot2 #visa{
+
+position: absolute;
+margin-left: 500px;
+margin-top: -200px;
+
+}
+#foot2 #master{
+
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -80px;
+    
+    }
+    #foot2 #maestro{
+
+        position: absolute;
+        margin-left: 620px;
+        margin-top: -80px;
+        
+        }
+        #foot2 #gpay{
+
+            position: absolute;
+            margin-left: 620px;
+            margin-top: -175px;
+            
+            }
+#foot_button{
+
+    margin-top: -270px;
+    margin-left:40px ;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    color: black;
+    background-color: white;
+
+}
+#foot_button:hover{
+
+    color: #000;
+    border: 2px solid wheat;
+
+}
+
+#pay{
+
+    width: 400px;
+    height: 550px;
+    margin-top: 100px;
     text-align: center;
-    margin-left: 30px;
-    width: 300px;
+    margin-left: 550px;
+    border:2px solid wheat;
+    font-size: 14px;
 
 }
-#wykup{
+#pay #pay-h1{
 
-    margin-top: 187px;
-    width: 370px;
-    height: 37px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+#pay img{
+
+    width: 70px;
+    position: absolute;
+
+}
+#pay #pay-v{
+
+
+    margin-top: -30px;
+    margin-left: -170px;
+
+}
+#pay #pay-m{
+
+
+    margin-top: -5px;
+    margin-left: -40px;
+
+}
+#pay #pay-g{
+
+
+    margin-top: 5px;
+    margin-left: 100px;
+
+}
+#pay #imie{
+
+   margin-bottom: -40px;
+
+}
+
+#pay #waz{
+
+    margin-left: -220px;
+    margin-top: -50px;
+
+}
+#pay #cv{
+
+    margin-top: -120px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+
+}
+#pay-b{
+
     margin-left: 0px;
-    background-color: wheat;
+    height: 77px;
+    width: 100%;
 
 }
-#wykup:hover{
+#pay-b:hover{
 
-    border:2px solid red;
+    border:4px solid rgb(239, 235, 7);
 
+}
+#headerv2{
+
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    z-index: -2;
+    margin-bottom: 100px;
+    position: absolute;
+
+}
+#couple{
+    position: absolute;
+    padding: 20px;
+    z-index: -1;
+    margin-top: 150px;
+}
+#text1{
+
+    margin-top: 200px;
+    margin-bottom: 500px;
+    width: 800px;
+    margin-left: 400px;
+    z-index: -1;
+    position: absolute;
+
+}
+#treneiro{
+
+    position: absolute;
+    width: 300px;
+    margin-left: 1000px;
+    z-index: -1;
+    margin-top: 1000px;
+}
+#mhead{
+    margin-left: 200px;
+    margin-top: 850px;
+    width: 1000px;
+    font-size: 40px;
+    position: absolute;
+    z-index: -1;
+}
+#text2{
+
+    width: 800px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 1000px;
+
+}
+#main-h1{
+
+    margin-top: 1600px;
+    width: 1200px;
+    position: absolute;
+    z-index: -1;
+
+}
+#text3{
+
+    width: 600px;
+    margin-left: 700px;
+    margin-top: 1750px;
+    position: absolute;
+    z-index: -1;
+
+}
+#test1{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+
+}
+#testfoot{
+
+    height: 200px;
+    background-color: #04AA6D;
+
+}
+#stopka1{
+
+    height: 400px;
+    width: 100%;
+    background-color: wheat;
+    margin-top: 2200px;
+    position: relative;
+}
+#visa1{
+
+    margin-left: 500px;
+    margin-top: -85px;
+    position: absolute;
+
+}
+#master1{
+
+    position: absolute;
+    margin-left: 505px;
+    margin-top: -160px;
+
+}
+#maestro1{
+
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -160px;
+}
+#gpay1{
+
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -60px;
+
+}
+#indeks{
+    margin-left: 200px;
+    margin-top: -177px;
 }

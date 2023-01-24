@@ -37,6 +37,19 @@ body{
 	text-align: center;
 	background-color: white;
  }
+ 
+ #logowanie
+{
+	margin-left: 1440px;
+    color:#000;
+	position: sticky;
+	top: 8px;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	border: solid;
+	z-index: 100;
+}
  @keyframes nav-load {
   0% {
     transform: translateY(-100%);
@@ -67,16 +80,7 @@ body{
     
 }
 
-#logowanie
-{
-	margin-left: 1440px;
-    color:#000;
-	position: relative;
-	width: 80px;
-	height: 20px;
-	text-align: center;
-	border: solid;
-}
+
 
 /*=================================*/ /*MENU*/ /*=================================*/
 ol 
