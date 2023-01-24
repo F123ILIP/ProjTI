@@ -754,7 +754,7 @@ position: absolute;
 #kontener_2 img{
 
     position: absolute;
-    margin-top: 60px;
+    margin-top: 1770px;
     margin-left: 330px;
     height: 350px;
     width: 250px;
@@ -768,7 +768,7 @@ position: absolute;
 #kontener img{
 
     position: absolute;
-    margin-top: 60px;
+    margin-top: 1770px;
     height: 350px;
     width: 250px;
     margin-left: 50px;
@@ -830,8 +830,8 @@ text-decoration: none;
 #main-foot{
 
 
-margin-left: 20px;
-margin-top: -150px;
+margin-left: 40px;
+margin-top: -225px;
 position: absolute;
 
 }
@@ -877,11 +877,12 @@ margin-top: -200px;
             }
 #foot_button{
 
-    margin-top: -240px;
+    margin-top: -270px;
+    margin-left:40px ;
     width: 150px;
     height: 50px;
     position: absolute;
-    color: wheat;
+    color: black;
     background-color: white;
 
 }
@@ -972,17 +973,28 @@ margin-top: -200px;
 #headerv2{
 
     font-size: 40px;
+    width: 300px;
+    margin-bottom: 100px;
     margin-left: 500px;
+    z-index: -2;
+    margin-bottom: 100px;
+    position: absolute;
 
 }
 #couple{
     position: absolute;
     padding: 20px;
+    z-index: -1;
+    margin-top: 150px;
 }
 #text1{
 
+    margin-top: 200px;
+    margin-bottom: 500px;
     width: 800px;
     margin-left: 400px;
+    z-index: -1;
+    position: absolute;
 
 }
 #treneiro{
@@ -990,28 +1002,91 @@ margin-top: -200px;
     position: absolute;
     width: 300px;
     margin-left: 1000px;
+    z-index: -1;
+    margin-top: 1000px;
 }
 #mhead{
-    margin-left: 300px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-top: 850px;
+    width: 1000px;
     font-size: 40px;
+    position: absolute;
+    z-index: -1;
 }
 #text2{
 
     width: 800px;
     margin-left: 50px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 1000px;
 
 }
 #main-h1{
 
-    margin-top: 100px;
+    margin-top: 1600px;
+    width: 1200px;
+    position: absolute;
+    z-index: -1;
 
 }
 #text3{
 
     width: 600px;
     margin-left: 700px;
-    margin-top: 80px;
+    margin-top: 1750px;
+    position: absolute;
+    z-index: -1;
 
+}
+#test1{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+
+}
+#testfoot{
+
+    height: 200px;
+    background-color: #04AA6D;
+
+}
+#stopka1{
+
+    height: 400px;
+    width: 100%;
+    background-color: wheat;
+    margin-top: 2200px;
+    position: relative;
+}
+#visa1{
+
+    margin-left: 500px;
+    margin-top: -85px;
+    position: absolute;
+
+}
+#master1{
+
+    position: absolute;
+    margin-left: 505px;
+    margin-top: -160px;
+
+}
+#maestro1{
+
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -160px;
+}
+#gpay1{
+
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -60px;
+
+}
+#indeks{
+    margin-left: 200px;
+    margin-top: -177px;
 }

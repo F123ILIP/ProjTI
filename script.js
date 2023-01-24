@@ -189,3 +189,8 @@ function calcBMI()
         document.getElementById("bmiwyn").innerText = "Otyłość III stopnia";
     }
 }
+function redict(){
+
+    location.href="index_platnosc.html";
+
+}

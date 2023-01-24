@@ -621,13 +621,40 @@ margin-left: 100px;
 
 #zd2{
 
-    width: 300px;
+    width: 150px;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 150px;
 
 }
 #tekscior{
-	position: relative;
-    width: 200px;
-    color: #09C;
-    margin: auto;
+	
+   width: 370px;
+   height: 370px;
+   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+   margin: auto;
+   margin-top: 100px;
+   border:2px solid red;
+
+}
+#tekscior p{
+
+    text-align: center;
+    margin-left: 30px;
+    width: 300px;
+
+}
+#wykup{
+
+    margin-top: 187px;
+    width: 370px;
+    height: 37px;
+    margin-left: 0px;
+    background-color: wheat;
+
+}
+#wykup:hover{
+
+    border:2px solid red;
 
 }
