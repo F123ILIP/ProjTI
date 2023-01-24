@@ -194,3 +194,28 @@ function redict(){
     location.href="index_platnosc.html";
 
 }
+function redict_bmi(){
+
+location.href="bmi.html"
+
+}
+function redict_plan(){
+
+    location.href="index_plany.html"
+    
+    }
+    function redict_dieta(){
+
+        location.href="index_jak_s.html"
+        
+        }
+function sending(){
+
+location.href="index_paltnosc.hmtl";
+
+}
+function teraz(){
+
+    location.href="index_atlas_silka.html";
+    
+    }

@@ -211,6 +211,10 @@ input:checked + .slider:before
 }
 
 /*=================================*/ /*BMI*/ /*=================================*/
+#b{
+    margin-left: 550px;
+}
+
 .in
 {
 	margin-top: 150px;
@@ -346,8 +350,10 @@ input[type=text]
  }
 #log{
 
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 600px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
 
  }
 #name{
@@ -370,6 +376,7 @@ input[type=text]
     height: 30px;
     margin-bottom: 20px;
     margin-left: 0px;
+    background-color: wheat;
 
 }
 
@@ -385,10 +392,12 @@ table{
 
     width: 800px;
     height: 300px;
+    margin-top: 80px;
 
 }
 #naglowek2{
     margin-left: 100px;
+    margin-top: 100px;
 }
 tr{
 
@@ -399,8 +408,14 @@ tr{
 
     width: 800px;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 50px;
     height: 40px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+}
+#wybor:hover{
+
+    border: 2px solid wheat;
 
 }
 input[type=radio] {
@@ -633,12 +648,16 @@ h2{
 #kontener_pl{
 
 width: 700px;
-margin-left: 100px;
+margin-left: 200px;
 
 }
 #wyslij{
 
-    margin-top: 50px;
+    margin-top: 70px;
+    width: 500px;
+    height: 50px;
+    margin-left:20px ;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 
 }
 #article_masa{
@@ -1011,7 +1030,7 @@ margin-top: -200px;
 }
 #mhead{
     margin-left: 200px;
-    margin-top: 850px;
+    margin-top: 950px;
     width: 1000px;
     font-size: 40px;
     position: absolute;
@@ -1093,4 +1112,51 @@ margin-top: -200px;
 #indeks{
     margin-left: 200px;
     margin-top: -177px;
+}
+#main-stopka2{
+
+    margin-top: 100px;
+    position: absolute;
+    height: 400px;
+    background-color: #000;
+    width: 100%;
+    color: wheat;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+
+}
+#main-stopka2 li a{
+    text-decoration: none;
+    margin-left: 1000px;
+    color: wheat;
+}
+#main-stopka2 ul li{
+
+text-decoration: none;
+
+}
+#jak_schudnac img{
+
+    border: 2px solid wheat;
+    box-shadow: 1px 1px;
+
+}
+#article_masa img{
+
+    border: 2px solid wheat;
+    box-shadow: 1px 1px;
+
+
+}
+#gigachad{
+    border: 2px solid wheat;
+    box-shadow: 1px 1px;
+}
+.kontakt{
+
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border: 2px solid black;
+
 }

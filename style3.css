@@ -732,6 +732,7 @@ margin-left: 0px;
 margin-top: 40px;
 animation:button-load 4000ms;
 position: absolute;
+background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 
 }
 #zobacz:hover{
@@ -758,7 +759,7 @@ position: absolute;
 #kontener_2 img{
 
     position: absolute;
-    margin-top: 1770px;
+    margin-top: 2070px;
     margin-left: 330px;
     height: 350px;
     width: 250px;
@@ -772,7 +773,7 @@ position: absolute;
 #kontener img{
 
     position: absolute;
-    margin-top: 1770px;
+    margin-top: 2070px;
     height: 350px;
     width: 250px;
     margin-left: 50px;
@@ -1028,7 +1029,7 @@ margin-top: -200px;
 }
 #main-h1{
 
-    margin-top: 1600px;
+    margin-top: 1800px;
     width: 1200px;
     position: absolute;
     z-index: -1;
@@ -1038,7 +1039,7 @@ margin-top: -200px;
 
     width: 600px;
     margin-left: 700px;
-    margin-top: 1750px;
+    margin-top: 2050px;
     position: absolute;
     z-index: -1;
 
@@ -1093,4 +1094,118 @@ margin-top: -200px;
 #indeks{
     margin-left: 200px;
     margin-top: -177px;
+}
+#skorzystaj-plan{
+
+    position: absolute;
+    height: 50px;
+    width: 1000px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 2350px;
+    margin-left: 300px;
+    width: 500px;
+    z-index: -1;
+
+
+
+}
+#skorzystaj-bmi{
+
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 1500px;
+    margin-left: 600px;
+    z-index: -1;
+
+}
+#skorzystaj-dieta{
+
+    position: absolute;
+    height: 50px;
+    width: 1000px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 3300px;
+    margin-left: 840px;
+    width: 500px;
+    z-index: -1;
+
+
+
+}
+#aleft{
+
+    width: 100px;
+    position: absolute;
+    margin-top: 2300px;
+    margin-left: 100px;
+    z-index: -1;
+
+
+}
+#aleft2{
+
+    width: 100px;
+    position: absolute;
+    margin-top: 3250px;
+    margin-left: 710px;
+    z-index: -1;
+
+
+}
+#aleft3{
+
+    width: 100px;
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 460px;
+    z-index: -1;
+
+
+}
+#aright{
+
+    width:100px;
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 1150px;
+    z-index: -1;
+
+
+}
+#aright2{
+
+    width:100px;
+    position: absolute;
+    margin-top: 2300px;
+    margin-left: 900px;
+    z-index: -1;
+
+
+}
+#aright3{
+
+    width:100px;
+    position: absolute;
+    margin-top: 3240px;
+    margin-left: 1370px;
+    z-index: -1;
+
+
+}
+#skorzystaj-bmi:hover {
+
+    border:2px solid wheat;
+
+}
+#skorzystaj-dieta:hover {
+
+    border:2px solid wheat;
+
+}
+#skorzystaj-plan:hover {
+
+    border:2px solid wheat;
+
 }
